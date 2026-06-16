@@ -8,7 +8,7 @@ The official PyTorch implementation of "S³RNet: Sparse Spatial–Spectral Repre
 
 ## [[Pre-trained Teacher Model]](https://drive.google.com/drive/folders/1bFvXC4pqLviSgIuCNVDb9rBriyzTmKj5?usp=sharing) &nbsp; [[Pre-trained Student Model]](https://drive.google.com/drive/folders/1qM5KeAuC44srurE536y8iAbtUH8-x0VR?usp=sharing)
 
-[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), Yu-Fan Lin, Chih-Chien Ni, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=zh-TW)
+[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), [Yu-Fan Lin](https://vanlinlin.github.io/), Chih-Chien Ni, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ)
 
 Advanced Computer Vision LAB, National Cheng Kung University  
 Department of Electrical Engineering, National Taiwan Normal University
@@ -68,26 +68,26 @@ To further improve deployment feasibility, we develop a **Hybrid Online Knowledg
 ### Installation
 
 ```bash
-git clone https://github.com/ming053l/CSAKD.git
+git clone https://github.com/ming053l/S3RNet.git
 conda create --name s3rnet python=3.8 -y
 conda activate s3rnet
 # CUDA 11.3
 conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=11.3 -c pytorch -c conda-forge
-cd CSAKD
+cd S3RNet
 pip install -r requirements.txt
 ```
 
 ## How To Test
 
 ```bash
-python test_S3RNet.py
+python test_CSAKD.py
 ```
 
 ## How To Train
 
 ```bash
 # Train teacher and student jointly via HOKD
-python train_S3RNet.py --batch_size 8 --epochs 800 --prefix HOKD_4bn_band4 --msi_bands 4 --device='cuda:0' --lr 1e-4
+python train_CSAKD.py --batch_size 8 --epochs 800 --prefix HOKD_4bn_band4 --msi_bands 4 --device='cuda:0' --lr 1e-4
 ```
 
 ---
