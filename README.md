@@ -101,7 +101,9 @@ If our work is helpful to your research, please kindly cite:
   title     = {S$^3$RNet: Sparse Spatial--Spectral Representation with Hybrid Knowledge Distillation for Efficient Multispectral and Hyperspectral Image Fusion},
   author    = {Chih-Chung Hsu and Chia-Ming Lee and Yu-Fan Lin and Chih-Chien Ni and Li-Wei Kang},
   journal   = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year      = {2026}
+  year      = {2026},
+  pages     = {1-20},
+  doi       = {10.1109/JSTARS.2026.3692909}
 }
 
 @inproceedings{lee2025s3rnet,
