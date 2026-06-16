@@ -2,7 +2,7 @@
 
 The official PyTorch implementation of "S³RNet: Sparse Spatial–Spectral Representation with Hybrid Knowledge Distillation for Efficient Multispectral and Hyperspectral Image Fusion". Accepted by **Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS 2026)**.
 
-## [[Paper Link (arXiv)]](https://arxiv.org/pdf/2501.07953)
+## [[Paper Link (arXiv)]](https://arxiv.org/pdf/2501.07953) [[Paper Link (IEEE xplore)]](https://ieeexplore.ieee.org/document/11517211/)
 
 ## [[AVIRIS Dataset Link (GoogleDrive)]](https://drive.google.com/drive/folders/10ovLQkVHvNzhXDiEnVGZJdvEMUKsC6Mo)
 
