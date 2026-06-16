@@ -1,6 +1,6 @@
-# CSAKD: Knowledge Distillation with Cross Self-Attention for Hyperspectral and Multispectral Image Fusion
+# S^{3}RNet: Sparse Spatial--Spectral Representation with Hybrid Knowledge Distillation for Efficient Multispectral and Hyperspectral Image Fusion
 
-The offical pytorch implementation of "CSAKD: Knowledge Distillation with Cross Self-Attention for Hyperspectral and Multispectral Image Fusion". Submitted to IEEE Transaction on Image Processing (TIP 2024).
+The offical pytorch implementation of "S3RNet: Sparse Spatial--Spectral Representation with Hybrid Knowledge Distillation for Efficient Multispectral and Hyperspectral Image Fusion". Accepted by Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS 2026).
 
 ## [[Paper Link (arXiv)]](https://arxiv.org/abs/2406.19666) 
 
@@ -8,7 +8,7 @@ The offical pytorch implementation of "CSAKD: Knowledge Distillation with Cross 
 
 ## [[Pre-trained Teacher Model]](https://drive.google.com/drive/folders/1bFvXC4pqLviSgIuCNVDb9rBriyzTmKj5?usp=sharing)  [[Pre-trained Student Model]](https://drive.google.com/drive/folders/1qM5KeAuC44srurE536y8iAbtUH8-x0VR?usp=sharing) 
 
-[Chih-Chung Hsu](https://cchsu.info/), Chih-Chien Ni, [Chia-Ming Lee](https://ming053l.github.io/), [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=zh-TW)
+[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), Yu-Fan Lin, Chih-Chien Ni, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=zh-TW)
 
 Advanced Computer Vision LAB, National Cheng Kung University
 
